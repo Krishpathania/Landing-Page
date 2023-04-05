@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Form</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #ccc;
+    }
+    .container{
+        margin: 50px auto;
+        display: grid;
+        /* border:2px solid black ; */
+        background-color: white;
+        border-radius: 10px;
+        height:35rem ;
+        width:38rem ;
+    }
+    .fd{
+        padding: 5px;
+        margin-bottom: 20px;
+        /* background-color: saddlebrown; */
+    }
+    .fh{
+        font-size: 20px;
+    }
+    .jd{
+        /* border: 3px solid tan; */
+        /* padding: 30px; */
+        margin: 17px 20px;
+    }
+    .kj{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5px auto;
+        grid-gap: 25px;
+    }
+    input{
+        height: 2rem;
+        border-radius: 5px;
+        width: 100%;
+        margin: 3px 0px;
+        padding: 10px;
+        /* border-style: none; */
+        border: 1px solid grey;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+   
+    #ads{
+        width: 100%;
+        height: 3rem;
+    }
+    .hj{
+        padding: 3px;
+    }
+    #fg{
+        /* position: relative; */
+        /* padding: 10px; */
+        margin: 10px 0px;
+    }
+    .sd{
+        display: flex;
+        justify-content: flex-end;
+    }
+    button{
+        margin: 4px;
+        padding: 7px;
+        border-radius: 8px;
+        background-color: red;
+        color: white;
+        border-style: none;
+
+    }
+    button:hover{
+background-color:  whitesmoke;
+color: black;
+border-color: red;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="jd">
+           <div class="fd"> <h1>Job Application <span class="fh">(Web)</span></h1></div>
+
+
+           <div class="kj">
+
+
+            <div class="jg">
+               <div class="hj"><label for="id1">First Name</label></div>
+               <div><input type="text" id="id1" placeholder="Enter your First Name..."></div>
+            </div>
+
+            <div class="j">
+               <div class="hj"><label for="id2">Email</label></div>
+               <div><input type="text" id="id2" placeholder="Enter your First Email..."></div>
+            </div>
+            <div class="jg">
+               <div class="hj"><label for="id3">Last Name</label></div>
+               <div><input type="text" id="id3" placeholder="Enter your last name..."></div>
+            </div>
+            <div class="j">
+               <div class="hj"><label for="id4">job role</label></div>
+               <select name="ob v role" id="23">
+                   <option value="Frotend"></option>
+                   <option value="backened"></option>
+                   <option value="bla bla"></option>
+               </select>
+            </div>
+
+
+           </div>
+           <div id="fg">
+               <div >Address</div>
+               <div><textarea name="kaj" id="ads" cols="30" rows="10" placeholder="write your adderss"></textarea></div>
+           </div>
+
+           <div class="kj">
+
+
+            <div class="jg">
+               <div class="hj"><label for="id5">City</label></div>
+               <div><input type="text" id="id5" placeholder="Enter your city..."></div>
+            </div>
+
+            <div class="j">
+               <div class="hj"><label for="id6">pin code</label></div>
+               <div><input type="text" id="id6" placeholder="Enter your pin code..."></div>
+            </div>
+            <div class="jg">
+               <div class="hj"><label for="id7">Date</label></div>
+               <div><input type="text" id="id7" placeholder="Enter Date..."></div>
+            </div>
+            <div class="j">
+               <div class="hj"><label for="id8"></label>Upload your cv</div>
+               <div><input type="text" id="id8" placeholder="Enter your cv..."></div>
+            </div>
+
+
+           </div>
+           <div class="sd"><button>
+               Apply Now
+
+           </button></div>
+
+
+        </div>
+    </div>
+</body>
+</html>
